@@ -97,7 +97,7 @@ function startTimer(duration, display) {
     }, 1000);
 }
 window.onload = function iniciarTimer() {
-    var duration = (60*60) - 1; // Converter para segundos
+    var duration = (60*60) - 1; // Define quanto tempo dura
     display = document.querySelector('#timer'); // selecionando o timer
     startTimer(duration, display); // iniciando o timer
 }
